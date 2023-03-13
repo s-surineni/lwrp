@@ -13,7 +13,8 @@
     "build": "node ./scripts/copy-slds.mjs"
   },
   "devDependencies": {
-    "@salesforce-ux/design-system": "^2.17.5"
+    "@salesforce-ux/design-system": "^2.17.5",
+    "lightning-base-components": "^1.14.6-alpha"
   },
   "dependencies": {
     "cpx": "^1.5.0",
