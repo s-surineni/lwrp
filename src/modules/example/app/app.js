@@ -182,8 +182,12 @@ export default class HelloWorldApp extends LightningElement {
   }
   hideSection(event) {
     console.log("ironman event.target ", event.target);
+    console.log("ironman event.currentTarget ", event.currentTarget);
+    console.log("ironman event.currentTarget.parentNode ", event.currentTarget.parentNode);
+
+
     // const header = event.target;
-    const header = this.template.querySelector('.unique-slds-section');
+    const header = event.currentTarget.parentNode;
     if (header.classList.contains('slds-is-open')) {
         console.log('ironman kya rey...');
         header.classList.remove('slds-is-open');
