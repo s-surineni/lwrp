@@ -1,9 +1,9 @@
 main {
-    margin: 30px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} 
 
 h1 {
     color: #1798c1;
