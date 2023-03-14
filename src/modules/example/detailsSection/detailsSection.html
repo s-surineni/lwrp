@@ -1,0 +1,218 @@
+<template>
+    <records-record-layout-section records-recordlayoutsection_recordlayoutsection-host="">
+        <div records-recordlayoutsection_recordlayoutsection=""
+            class="test-id__section slds-section slds-m-vertical_none has-header slds-p-bottom_medium slds-is-open">
+            <h3 records-recordlayoutsection_recordlayoutsection=""
+                class="test-id__section-header-container slds-section__title"
+                data-target-reveals="sfdc:RecordField.Account.Type,sfdc:RecordField.Account.NumberOfEmployees,sfdc:RecordField.Account.Industry,sfdc:RecordField.Account.AnnualRevenue,sfdc:RecordField.Account.Description">
+                <button records-recordlayoutsection_recordlayoutsection=""
+                    class="test-id__section-header-button slds-section__title-action slds-button"
+                    aria-controls="sectionContent-488" aria-expanded="true"><span
+                        records-recordlayoutsection_recordlayoutsection=""
+                        class="test-id__section-header-icon slds-icon_container slds-m-right_x-small"><lightning-icon
+                            records-recordlayoutsection_recordlayoutsection="" icon-name="utility:chevrondown"
+                            class="slds-icon_container slds-icon-utility-chevrondown"><span
+                                part="boundary"><lightning-primitive-icon><svg
+                                        class="slds-icon slds-icon-text-default slds-icon_x-small" focusable="false"
+                                        data-key="chevrondown" aria-hidden="true" viewBox="0 0 52 52" part="icon">
+                                        <g>
+                                            <path
+                                                d="M47.6 17.8L27.1 38.5c-.6.6-1.6.6-2.2 0L4.4 17.8c-.6-.6-.6-1.6 0-2.2l2.2-2.2c.6-.6 1.6-.6 2.2 0l16.1 16.3c.6.6 1.6.6 2.2 0l16.1-16.2c.6-.6 1.6-.6 2.2 0l2.2 2.2c.5.6.5 1.5 0 2.1z">
+                                            </path>
+                                        </g>
+                                    </svg></lightning-primitive-icon></span></lightning-icon></span><span
+                        records-recordlayoutsection_recordlayoutsection=""
+                        class="test-id__section-header-title">Additional
+                        Information</span></button>
+            </h3>
+            <div records-recordlayoutsection_recordlayoutsection=""
+                class="test-id__section-content slds-section__content section__content slds-p-horizontal_small"
+                id="sectionContent-488" aria-hidden="false">
+                <div records-recordlayoutsection_recordlayoutsection="" class="slds-form">
+                    <slot records-recordlayoutsection_recordlayoutsection=""><records-record-layout-row
+                            class="slds-form__row" records-recordlayoutrow_recordlayoutrow-host="">
+                            <slot records-recordlayoutrow_recordlayoutrow="" class="slds-grid slds-size_1-of-1">
+                                <records-record-layout-item class="slds-form__item slds-no-space" field-label="Type"
+                                    records-recordlayoutitem_recordlayoutitem-host="">
+                                    <div records-recordlayoutitem_recordlayoutitem=""
+                                        class="slds-grid slds-size_1-of-1 label-stacked"
+                                        data-target-selection-name="sfdc:RecordField.Account.Type">
+                                        <div records-recordlayoutitem_recordlayoutitem=""
+                                            class="slds-form-element slds-hint-parent test-id__output-root slds-form-element_edit slds-form-element_readonly is-stacked is-stacked-not-editing">
+                                            <div records-recordlayoutitem_recordlayoutitem=""
+                                                class="test-id__field-label-container slds-form-element__label no-utility-icon">
+                                                <span records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__field-label">Type</span>
+                                            </div>
+                                            <div records-recordlayoutitem_recordlayoutitem=""
+                                                class="slds-form-element__control"><span
+                                                    records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__field-value slds-form-element__static slds-grow word-break-ie11">
+                                                    <slot records-recordlayoutitem_recordlayoutitem=""
+                                                        name="outputField">
+                                                        <lightning-formatted-text data-output-element-id="output-field"
+                                                            slot="outputField">Competitor</lightning-formatted-text>
+                                                    </slot>
+                                                    <slot records-recordlayoutitem_recordlayoutitem=""></slot>
+                                                </span><button records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__inline-edit-trigger slds-shrink-none inline-edit-trigger slds-button slds-button_icon-bare"
+                                                    title="Edit Type"><span
+                                                        class="inline-edit-trigger-icon slds-button__icon slds-button__icon_hint"
+                                                        aria-hidden="true"
+                                                        records-recordlayoutitem_recordlayoutitem=""></span><span
+                                                        records-recordlayoutitem_recordlayoutitem=""
+                                                        class="slds-assistive-text">Edit Type</span></button></div>
+                                        </div>
+                                    </div>
+                                </records-record-layout-item><records-record-layout-item
+                                    class="slds-form__item slds-no-space" field-label="Employees"
+                                    records-recordlayoutitem_recordlayoutitem-host="">
+                                    <div records-recordlayoutitem_recordlayoutitem=""
+                                        class="slds-grid slds-size_1-of-1 label-stacked"
+                                        data-target-selection-name="sfdc:RecordField.Account.NumberOfEmployees">
+                                        <div records-recordlayoutitem_recordlayoutitem=""
+                                            class="slds-form-element slds-hint-parent test-id__output-root slds-form-element_edit slds-form-element_readonly is-stacked is-stacked-not-editing">
+                                            <div records-recordlayoutitem_recordlayoutitem=""
+                                                class="test-id__field-label-container slds-form-element__label no-utility-icon">
+                                                <span records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__field-label">Employees</span>
+                                            </div>
+                                            <div records-recordlayoutitem_recordlayoutitem=""
+                                                class="slds-form-element__control"><span
+                                                    records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__field-value slds-form-element__static slds-grow word-break-ie11">
+                                                    <slot records-recordlayoutitem_recordlayoutitem=""
+                                                        name="outputField">
+                                                        <lightning-formatted-number
+                                                            data-output-element-id="output-field" slot="outputField"
+                                                            lightning-formattednumber_formattednumber-host="">400</lightning-formatted-number>
+                                                    </slot>
+                                                    <slot records-recordlayoutitem_recordlayoutitem=""></slot>
+                                                </span><button records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__inline-edit-trigger slds-shrink-none inline-edit-trigger slds-button slds-button_icon-bare"
+                                                    title="Edit Employees"><span
+                                                        class="inline-edit-trigger-icon slds-button__icon slds-button__icon_hint"
+                                                        aria-hidden="true"
+                                                        records-recordlayoutitem_recordlayoutitem=""></span><span
+                                                        records-recordlayoutitem_recordlayoutitem=""
+                                                        class="slds-assistive-text">Edit Employees</span></button></div>
+                                        </div>
+                                    </div>
+                                </records-record-layout-item>
+                            </slot>
+                        </records-record-layout-row><records-record-layout-row class="slds-form__row"
+                            records-recordlayoutrow_recordlayoutrow-host="">
+                            <slot records-recordlayoutrow_recordlayoutrow="" class="slds-grid slds-size_1-of-1">
+                                <records-record-layout-item class="slds-form__item slds-no-space" field-label="Industry"
+                                    records-recordlayoutitem_recordlayoutitem-host="">
+                                    <div records-recordlayoutitem_recordlayoutitem=""
+                                        class="slds-grid slds-size_1-of-1 label-stacked"
+                                        data-target-selection-name="sfdc:RecordField.Account.Industry">
+                                        <div records-recordlayoutitem_recordlayoutitem=""
+                                            class="slds-form-element slds-hint-parent test-id__output-root slds-form-element_edit slds-form-element_readonly is-stacked is-stacked-not-editing">
+                                            <div records-recordlayoutitem_recordlayoutitem=""
+                                                class="test-id__field-label-container slds-form-element__label no-utility-icon">
+                                                <span records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__field-label">Industry</span>
+                                            </div>
+                                            <div records-recordlayoutitem_recordlayoutitem=""
+                                                class="slds-form-element__control"><span
+                                                    records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__field-value slds-form-element__static slds-grow word-break-ie11">
+                                                    <slot records-recordlayoutitem_recordlayoutitem=""
+                                                        name="outputField">
+                                                        <lightning-formatted-text data-output-element-id="output-field"
+                                                            slot="outputField"></lightning-formatted-text>
+                                                    </slot>
+                                                    <slot records-recordlayoutitem_recordlayoutitem=""></slot>
+                                                </span><button records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__inline-edit-trigger slds-shrink-none inline-edit-trigger slds-button slds-button_icon-bare"
+                                                    title="Edit Industry"><span
+                                                        class="inline-edit-trigger-icon slds-button__icon slds-button__icon_hint"
+                                                        aria-hidden="true"
+                                                        records-recordlayoutitem_recordlayoutitem=""></span><span
+                                                        records-recordlayoutitem_recordlayoutitem=""
+                                                        class="slds-assistive-text">Edit Industry</span></button></div>
+                                        </div>
+                                    </div>
+                                </records-record-layout-item><records-record-layout-item
+                                    class="slds-form__item slds-no-space" field-label="Annual Revenue"
+                                    records-recordlayoutitem_recordlayoutitem-host="">
+                                    <div records-recordlayoutitem_recordlayoutitem=""
+                                        class="slds-grid slds-size_1-of-1 label-stacked"
+                                        data-target-selection-name="sfdc:RecordField.Account.AnnualRevenue">
+                                        <div records-recordlayoutitem_recordlayoutitem=""
+                                            class="slds-form-element slds-hint-parent test-id__output-root slds-form-element_edit slds-form-element_readonly is-stacked is-stacked-not-editing">
+                                            <div records-recordlayoutitem_recordlayoutitem=""
+                                                class="test-id__field-label-container slds-form-element__label no-utility-icon">
+                                                <span records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__field-label">Annual Revenue</span>
+                                            </div>
+                                            <div records-recordlayoutitem_recordlayoutitem=""
+                                                class="slds-form-element__control"><span
+                                                    records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__field-value slds-form-element__static slds-grow word-break-ie11">
+                                                    <slot records-recordlayoutitem_recordlayoutitem=""
+                                                        name="outputField">
+                                                        <lightning-formatted-text data-output-element-id="output-field"
+                                                            slot="outputField"></lightning-formatted-text>
+                                                    </slot>
+                                                    <slot records-recordlayoutitem_recordlayoutitem=""></slot>
+                                                </span><button records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__inline-edit-trigger slds-shrink-none inline-edit-trigger slds-button slds-button_icon-bare"
+                                                    title="Edit Annual Revenue"><span
+                                                        class="inline-edit-trigger-icon slds-button__icon slds-button__icon_hint"
+                                                        aria-hidden="true"
+                                                        records-recordlayoutitem_recordlayoutitem=""></span><span
+                                                        records-recordlayoutitem_recordlayoutitem=""
+                                                        class="slds-assistive-text">Edit Annual Revenue</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </records-record-layout-item>
+                            </slot>
+                        </records-record-layout-row><records-record-layout-row class="slds-form__row form-element_1-col"
+                            records-recordlayoutrow_recordlayoutrow-host="">
+                            <slot records-recordlayoutrow_recordlayoutrow="" class="slds-grid slds-size_1-of-1">
+                                <records-record-layout-item class="slds-form__item slds-no-space"
+                                    field-label="Description" records-recordlayoutitem_recordlayoutitem-host="">
+                                    <div records-recordlayoutitem_recordlayoutitem=""
+                                        class="slds-grid slds-size_1-of-1 label-stacked"
+                                        data-target-selection-name="sfdc:RecordField.Account.Description">
+                                        <div records-recordlayoutitem_recordlayoutitem=""
+                                            class="slds-form-element slds-hint-parent test-id__output-root slds-form-element_edit slds-form-element_readonly is-stacked is-stacked-not-editing">
+                                            <div records-recordlayoutitem_recordlayoutitem=""
+                                                class="test-id__field-label-container slds-form-element__label no-utility-icon">
+                                                <span records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__field-label">Description</span>
+                                            </div>
+                                            <div records-recordlayoutitem_recordlayoutitem=""
+                                                class="slds-form-element__control"><span
+                                                    records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__field-value slds-form-element__static slds-grow word-break-ie11">
+                                                    <slot records-recordlayoutitem_recordlayoutitem=""
+                                                        name="outputField">
+                                                        <lightning-formatted-text data-output-element-id="output-field"
+                                                            slot="outputField">good competition is
+                                                            good</lightning-formatted-text>
+                                                    </slot>
+                                                    <slot records-recordlayoutitem_recordlayoutitem=""></slot>
+                                                </span><button records-recordlayoutitem_recordlayoutitem=""
+                                                    class="test-id__inline-edit-trigger slds-shrink-none inline-edit-trigger slds-button slds-button_icon-bare"
+                                                    title="Edit Description"><span
+                                                        class="inline-edit-trigger-icon slds-button__icon slds-button__icon_hint"
+                                                        aria-hidden="true"
+                                                        records-recordlayoutitem_recordlayoutitem=""></span><span
+                                                        records-recordlayoutitem_recordlayoutitem=""
+                                                        class="slds-assistive-text">Edit Description</span></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </records-record-layout-item>
+                            </slot>
+                        </records-record-layout-row></slot>
+                </div>
+            </div>
+        </div>
+    </records-record-layout-section>
+</template>
